@@ -1,0 +1,28 @@
+# Core dependencies for AI2-THOR Object Navigation Agent
+
+# Deep Learning Framework
+torch>=1.9.0
+torchvision>=0.10.0
+
+# OpenAI CLIP for visual encoding
+git+https://github.com/openai/CLIP.git
+
+# AI2-THOR environment
+ai2thor>=5.0.0
+
+# Scientific computing and image processing
+numpy>=1.19.0
+Pillow>=8.0.0
+
+# Training utilities (for finetune_scene.py)
+tqdm>=4.60.0
+
+# Backend server dependencies
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+websockets>=12.0
+wsproto>=1.0.0
+python-multipart>=0.0.6
+
+# Optional: For improved performance
+# nvidia-ml-py3  # GPU monitoring
